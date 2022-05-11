@@ -198,7 +198,7 @@ Next, lets setup the Scheduled Task to use the new GMSA account.
 $action = New-ScheduledTaskAction “c:\DTE\GMSASOX\gmsalog.bat”
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 1)
 $principal = New-ScheduledTaskPrincipal -UserID dteclass\gmsa_soxrep$ -LogonType Password
-Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "Test GMSA" -Description "Runs every minute" -Principal $principal
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "Test SOX Reporter GMSA" -Description "Runs every minute" -Principal $principal
 ```
 
 The scheduled task show start and begin logging in C:\DTE\GMSASOX\log.txt
