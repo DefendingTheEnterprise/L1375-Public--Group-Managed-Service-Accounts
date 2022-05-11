@@ -247,6 +247,18 @@ dteclass\gmsa_soxrep$
 
 ---
 
+## Bonus
+
+Take a look at the Task Scheduler and Event Logs.
+
+Note interesting EventIDs: 
+- EVENT ID 4624 - An account successfully logged on (NULL SID [SYSTEM] DTE-DC1$ Impersonation)
+- EVENT ID 4768 - Kerberos Authentication Ticket Requested
+- EVENT ID 4769 - Kerberos Service Ticket Requested
+- EVENT ID 4648 - Logon was attemped usign explicit credentials (Note Subject and Account) 
+- EVENT ID 4624 - An account successfully logged on (Logon type 5, DTE-DC1$ Impersonation)
+- EVENT ID 4672 - Special privileges assigned to new logon.
+- Sysmon EVENT ID 1 - Process Creation
 
 
 ## Lab Complete
