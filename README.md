@@ -316,5 +316,5 @@ Copyright Defensive Origins 2022
   [DTE-L0111]: 2-Labs/DTE-L0111.md
   [DTE-L0150]: 2-Labs/DTE-L0150.md
   [DTE-L0151]: 2-Labs/DTE-L0151.md
-  [DTE-AST]: https://www.antisyphontraining.com/defending-the-enterprise-w-kent-ickler-and-jordan-drysdale/
+  [DTE-AST]: https://www.antisyphontraining.com/on-demand-courses/defending-the-enterprise-w-kent-ickler-and-jordan-drysdale
   [DET]:resources/img-1.png
